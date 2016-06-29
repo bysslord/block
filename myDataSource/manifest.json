@@ -8,12 +8,12 @@
     "default_popup": "popup.html"
   },
   "background": {
-    "scripts": ["js/background.js"]
+    "page": "background.html"
   },
 
   "options_page": "options.html",
 
   "permissions": [
-    "https://www.baidu.com/"
+    "https://open.bdp.cn/"
   ]
 }
