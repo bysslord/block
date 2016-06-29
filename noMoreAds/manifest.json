@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "no more ads",
+  "version": "1.0",
+  "description": "block baidu ads",
+  "content_scripts": [
+    {
+      "matches": ["*://www.baidu.com/s?*"],
+      "js": ["js/jquery-3.0.0.min.js", "js/block.js"]
+    }
+  ]
+}
